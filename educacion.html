@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Educacion</title>
+  </head>
+  <body>
+    <svg width="300" heigth="100" viewBox="0 0 300 100">
+      <image width="300" heigth="300" xlink:href="img/icon.svg"/>
+    </svg>
+          <h1>Hoja de Vida</h1>
+    <h2>Datos Personales</h2>
+    <h3>Nombre completo: Verónica Elizabeth</h3>
+    <h3>Apellido completo: Gamarra Gaete</h3>
+    <h3>Fecha de nacimiento: 05/05/1993</h3>
+    <h3>Lugar de nacimiento: Ciudad del Este-Alto Paraná-Paraguay</h3>
+    <a href="index.html">INICIO</a>
+    <a href="#">EDUCACIÓN</a>
+    <a href="educacion.html">EXPERIENCIA</a>
+    <h2>Educación</h2>
+    <table border="1", cellpading="8", cellspacing="0" >
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2015</td>
+          <td>Universidad Nacional del Este - Facultad Politécnica</td>
+          <td>Ciudad del Este</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td>Universidad Nacional del Este - Escuela de Posgrado</td>
+          <td>Ciudad del Este</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2019</td>
+          <td>Universidad Nacional del Este - Escuela de Posgrado</td>
+          <td>Ciudad del Este</td>
+          <td>Si</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <form autocomplete="on">
+      <fieldset">
+        <legend>Agregar Estudios</legend>
+        <label for="ano">Ingrese año</label>
+        <select name="ano">
+          <option>2019</option>
+          <option>2018</option>
+          <option>2017</option>
+          <option>2016</option>
+          <option>2015</option>
+        </select><br>
+        <label for="institucion">Ingrese una institución</label>
+        <input type="text" required> <br>
+        <label for="lugar">Ingrese el lugar</label><br>
+        <textarea name="lugar" rows="3" cols="80"></textarea><br>
+        <input type="submit" name="enviar" value="Enviar">
+      </fieldset>
+    </form>
+    <footer>
+      <h5><strong>correo:</strong>vegamarra93@gmail.com</h5>
+      <h5><strong>teléfono:</strong>(0973)650-403</h5>
+      <a  href="https://www.facebook.com" target="_blank"><img src="img\LogoFacebook.png" width="25" height="25"></a>
+    </footer>
+  </body>
+</html>
